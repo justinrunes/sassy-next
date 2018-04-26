@@ -1,0 +1,35 @@
+/* Button placeholder selector */
+%button-static {
+  @include border-radius(20px);
+  padding: 10px 20px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: $font-family-primary;
+  font-size: $font-size-normal;
+  font-weight: $weight-normal;
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-turquoise;
+  }
+}
+
+/* Button */
+.button {
+  @extend %button-static;
+}
+
+
+/* Modifiers */
+
+// Primary button
+.button--primary {
+  color: $color-white;
+  background-color: $color-turquoise;
+
+  &:hover {
+    background-color: $color-turquoise-light;
+  }
+}
