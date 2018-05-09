@@ -1,6 +1,6 @@
 <h1 align="center">Sassy Next</h1>
 <p align="center">
-    A Next.js starter with Sassy Grid
+    A Next.js starter with Sassy Grid.
 </p>
 
 ## Quick start

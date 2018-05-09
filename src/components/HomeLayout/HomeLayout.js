@@ -1,6 +1,5 @@
-import Head from 'next/head'
-import Header from '../Header/Header';
 import Link from 'next/link';
+import Header from '../Header/Header';
 
 const HomeLayout = (props) => (
     <div>

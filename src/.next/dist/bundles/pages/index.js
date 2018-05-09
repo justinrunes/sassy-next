@@ -129,13 +129,10 @@ var Header = function Header() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Header_Header__ = __webpack_require__("./components/Header/Header.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_next_link__);
 var _jsxFileName = '/Users/justinrunes/Sites/sassy-next/src/components/HomeLayout/HomeLayout.js';
-
 
 
 
@@ -148,19 +145,19 @@ var HomeLayout = function HomeLayout(props) {
             className: 'jsx-1586328328',
             __source: {
                 fileName: _jsxFileName,
-                lineNumber: 6
+                lineNumber: 5
             }
         },
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Header_Header__["a" /* default */], {
             __source: {
                 fileName: _jsxFileName,
-                lineNumber: 7
+                lineNumber: 6
             }
         }),
         props.children,
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
             styleId: '1586328328',
-            css: '\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9jb21wb25lbnRzL0hvbWVMYXlvdXQvSG9tZUxheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVb0IiLCJmaWxlIjoic3JjL2NvbXBvbmVudHMvSG9tZUxheW91dC9Ib21lTGF5b3V0LmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9qdXN0aW5ydW5lcy9TaXRlcy9zYXNzeS1uZXh0Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuaW1wb3J0IEhlYWRlciBmcm9tICcuLi9IZWFkZXIvSGVhZGVyJztcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XG5cbmNvbnN0IEhvbWVMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8SGVhZGVyPjwvSGVhZGVyPlxuICAgICAgICBcbiAgICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgICAgICBcbiAgICAgICAgPHN0eWxlIGpzeD57YFxuXG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgSG9tZUxheW91dDsiXX0= */\n/*@ sourceURL=src/components/HomeLayout/HomeLayout.js */'
+            css: '\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9jb21wb25lbnRzL0hvbWVMYXlvdXQvSG9tZUxheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTb0IiLCJmaWxlIjoic3JjL2NvbXBvbmVudHMvSG9tZUxheW91dC9Ib21lTGF5b3V0LmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9qdXN0aW5ydW5lcy9TaXRlcy9zYXNzeS1uZXh0Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcbmltcG9ydCBIZWFkZXIgZnJvbSAnLi4vSGVhZGVyL0hlYWRlcic7XG5cbmNvbnN0IEhvbWVMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8SGVhZGVyPjwvSGVhZGVyPlxuICAgICAgICBcbiAgICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgICAgICBcbiAgICAgICAgPHN0eWxlIGpzeD57YFxuXG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgSG9tZUxheW91dDsiXX0= */\n/*@ sourceURL=src/components/HomeLayout/HomeLayout.js */'
         })
     );
 };
@@ -198,21 +195,21 @@ var ThreeBlockHero = function ThreeBlockHero() {
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "div",
-                { className: "three-block-hero three-block-hero--custom", __source: {
+                { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.threeBlockHeroCustom, __source: {
                         fileName: _jsxFileName,
                         lineNumber: 7
                     }
                 },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
-                    { className: "left", __source: {
+                    { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.left, __source: {
                             fileName: _jsxFileName,
                             lineNumber: 8
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "top", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.top, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 9
                             }
@@ -229,7 +226,7 @@ var ThreeBlockHero = function ThreeBlockHero() {
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "p",
-                            { className: "body", __source: {
+                            { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.body, __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 11
                                 }
@@ -248,7 +245,7 @@ var ThreeBlockHero = function ThreeBlockHero() {
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "bottom", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.bottom, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 14
                             }
@@ -266,21 +263,21 @@ var ThreeBlockHero = function ThreeBlockHero() {
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
-                    { className: "rt", title: "A child with XLH", __source: {
+                    { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.rt, title: "A child with XLH", __source: {
                             fileName: _jsxFileName,
                             lineNumber: 18
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "top", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.top, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 19
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "h1",
-                            { className: "block__title", __source: {
+                            { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.blockTitle, __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 20
                                 }
@@ -299,7 +296,7 @@ var ThreeBlockHero = function ThreeBlockHero() {
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "bottom", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.bottom, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 23
                             }
@@ -317,21 +314,21 @@ var ThreeBlockHero = function ThreeBlockHero() {
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
-                    { className: "rb", title: "An adult female with XLH", __source: {
+                    { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.rb, title: "An adult female with XLH", __source: {
                             fileName: _jsxFileName,
                             lineNumber: 27
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "top", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.top, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 28
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "h1",
-                            { className: "block__title", __source: {
+                            { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.blockTitle, __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 29
                                 }
@@ -350,7 +347,7 @@ var ThreeBlockHero = function ThreeBlockHero() {
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "bottom", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.bottom, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 32
                             }
@@ -378,7 +375,52 @@ var ThreeBlockHero = function ThreeBlockHero() {
 /***/ "./components/ThreeBlockHero/ThreeBlockHero.scss":
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: \n    @include desktop-up {\n            ^\n      No mixin named desktop-up\n      in /Users/justinrunes/Sites/sassy-next/src/components/ThreeBlockHero/ThreeBlockHero.scss (line 3, column 14)");
+module.exports = {
+	"play-button": "_2Wi8owS815LF9hM_ttt2hs",
+	"threeBlockHeroCustom": "_1m_-dYkXTGcGyMIwC02QGY",
+	"container": "_38IJHV4MI0rNmtGJssDeLY",
+	"container--small": "_1b5YfafmvzqkfPBynfd3Hw",
+	"align-start": "_1wBkJ6QKox6k3EY5z49zkH",
+	"align-center": "_1fl4vvBfzWHvR3OvIFVu2o",
+	"align-end": "_3jwrQ6RKI9YgIsix7-wtKn",
+	"justify-start": "_1QMDOUXcpdqCEUkSTlhrp4",
+	"justify-center": "_2muWlyPWJM1qiPtUYllmMP",
+	"justify-end": "_2Nu28UsaQGk_P1SB4MsY-M",
+	"border-small": "_3Vw-YzQ2EOo-bNCe2ZOPXE",
+	"border-medium": "_2ZfO6fAtyP59jZqBcnOBM0",
+	"desktop-hide": "WmeiSS9G4noOYAktxn7oz",
+	"mobile-hide": "_1z1mFGTq0wJBsD12GrXHjE",
+	"text-left": "_3IVeSDOYTmteL_DGpSefqr",
+	"text-center": "_2GRWAfh0in3tT5qb2uNmp9",
+	"text-right": "_1DcfNvSnfb1X-U43us-NAM",
+	"color-white": "IxmKzYdxHVItNzc3jhBfj",
+	"height-small": "Gl-J58uMNlJK2jJctY2jm",
+	"max-width-small": "_2uJ4F_dGFIc_HpYILinvSq",
+	"max-width--medium": "Kdvs-GAnMi6hbZP_bNQnv",
+	"box-shadow": "_3lUD98g8sIENb6ugRiVn0k",
+	"padding--small": "Lib_mYaGRq9eeZeHndl7c",
+	"padding--medium": "_-7OJkUuoFLaszK5yXvp54",
+	"padding--large": "KRiFPlbH8cMsGb4YN2qkQ",
+	"padding-top--small": "_3-e-Rz06RqEwEUMegaW7sE",
+	"padding-top--medium": "_3JPNjA7xGpxyHPigWtb1nt",
+	"padding-top--large": "_3ctjuI76QD0LKvhpgbXgWw",
+	"padding-top--xlarge": "_1B_oL3lggi8OfC4YYUl0gR",
+	"padding-bottom--xsmall": "-dpugMFn8WmCt6CjYRYhw",
+	"padding-bottom--small": "wZxna5MG3Ffw5P9tu2pni",
+	"padding-bottom--medium": "mt2R5P1N0mmuDhAwD6A44",
+	"padding-bottom--large": "_1vAUj8B1wzHOpA8JTCxCWx",
+	"padding-bottom--xlarge": "_1JVxEU0GVAcsqVnB8u2GkV",
+	"link": "_3x5Plq-hSzlW1IBptHuDuP",
+	"link--large": "_3OSnKQY-Kal5KCZzyIISEP",
+	"link--full": "YPg3DBIL91pMAAXBw7IVs",
+	"link--white": "_2Njq2sAVSTcg_2_XbftKVh",
+	"button": "_3DcnI6n5BaVnv7sqNUbL75",
+	"button--primary": "_3NMT2fGDswVGGnFElqXwNi",
+	"arrow": "_3ddRj8kSDUd82FVXnZmaAg",
+	"top": "_31tueJ3-5XFUlM5G-a6fRd",
+	"bottom": "_3PyUMHK6jaC1P4fYJFKhBl",
+	"body": "_3oSLJqbPOWcxm1vOFhrnQA"
+};
 
 /***/ }),
 
@@ -389,8 +431,8 @@ throw new Error("Module build failed: \n    @include desktop-up {\n            ^
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_main_scss__ = __webpack_require__("./styles/main.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_main_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_main_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("next/head");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_HomeLayout_HomeLayout__ = __webpack_require__("./components/HomeLayout/HomeLayout.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_ThreeBlockHero_ThreeBlockHero__ = __webpack_require__("./components/ThreeBlockHero/ThreeBlockHero.js");
 var _jsxFileName = '/Users/justinrunes/Sites/sassy-next/src/pages/index.js';
@@ -409,7 +451,7 @@ var Index = function Index() {
       }
     },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      Head,
+      __WEBPACK_IMPORTED_MODULE_1_next_head___default.a,
       {
         __source: {
           fileName: _jsxFileName,
@@ -442,62 +484,6 @@ var Index = function Index() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
-
-/***/ }),
-
-/***/ "./styles/main.scss":
-/***/ (function(module, exports) {
-
-module.exports = {
-	"play-button": "_26ERZYbJykQxcs8MNPHwem",
-	"section": "_3nsfd7i5CmsicVUkGRLsQu",
-	"block": "_3tlY3gT5AtW77aE_CHuEg_",
-	"two-column": "_1-ErUTHHwek0XPQDkapX9",
-	"three-column": "etORn1VdKaL2ztmf5GSWP",
-	"container": "zxceq92bsJcxP1yp7rNfm",
-	"container--small": "blbyBZ6BNFbLrqpMK1xaT",
-	"align-start": "_3lt6eXeUcZQJjlTxLZe-s6",
-	"align-center": "_30WVhgOPJYjVYGPaSIHfrv",
-	"align-end": "_1uBWQX_uTjU7aKEsv9Q64X",
-	"justify-start": "_3u6pbOeYv2d7Vq4X1bjsxR",
-	"justify-center": "hhN0m8pm21sgUNlOtpCUY",
-	"justify-end": "Kx4DuePQVZgPWuguZ9Ljw",
-	"border-small": "_3ehEgFA8DXk3e7aK8mt5oX",
-	"border-medium": "_3HDs3kATlwPV3oFChUJ76Q",
-	"desktop-hide": "zPghnOogORfKy1Z6LU5EU",
-	"mobile-hide": "_3nXhYCwjxyONwvIUi81yrG",
-	"text-left": "_1ihKUHl9NUoFg-qUDB1q1c",
-	"text-center": "_3rRkNDeH-l20YZyoIh6Dzz",
-	"text-right": "_2tX0lMFrSrYJ7e9Mu3THl5",
-	"color-white": "_1NEizMODkeDuk_8WtvTPym",
-	"height-small": "_15a7ZUzb4UjTLKxjBv1oJq",
-	"max-width-small": "_2nYDFt6wN5-lp2PT-V98TJ",
-	"max-width--medium": "_24EffM8MHAmWevBVXfHBYT",
-	"box-shadow": "_2zyU_Kq_lh3kLypEAjQfl",
-	"padding--small": "N8MQ260ANKkvw9VPYPAnU",
-	"padding--medium": "_1FHCHxUVjizqgnQGvLL-CW",
-	"padding--large": "pLYRHtcHZHRAepbEsFIhN",
-	"padding-top--small": "_75kp3WtPo1gdLDZA6Y19o",
-	"padding-top--medium": "_3fLfr_tEBBC6hPFVAa0tGU",
-	"padding-top--large": "_1dysSj30QzmsUuaoq2g5Bd",
-	"padding-top--xlarge": "_3Jj7j1gPLuwoTkAysPjlEM",
-	"padding-bottom--xsmall": "_3sQlhm1QOzfSGsFgPYx5J0",
-	"padding-bottom--small": "_28cJSpb3yhVlFtF0Y3lPjb",
-	"padding-bottom--medium": "_1tS4tjtwL1ocbgg58nWWci",
-	"padding-bottom--large": "_1a5A9UBPdM86XS2FAjHgN-",
-	"padding-bottom--xlarge": "_2c_eM6WJYOLWefyejS-p9V",
-	"link": "_2HrhNrHtkafhJnLgL-NFOZ",
-	"link--large": "_5N8djWBjxR78OG81VHhX9",
-	"link--full": "jR24krdluhOfMOsTg1gaL",
-	"link--white": "_24OzJtRChEkhJZGDGMumES",
-	"button": "_2RF9294bBZz5-Z2ozXX1bY",
-	"button--primary": "DonMg9mgMoQ2T5LVJsQmB",
-	"arrow": "H17MvP2i1PkcVL5asTU9h",
-	"section--grey": "_148gIwIFSXdb68LruEm7Pq",
-	"block--large": "T771T6WkFaJKwax_mVyLu",
-	"block--title-graphic": "_1x2A79CTkWuxTVu5rP-drw",
-	"latest-news": "_2jBZmjK8KtaaSdvmhlIvgy"
-};
 
 /***/ }),
 

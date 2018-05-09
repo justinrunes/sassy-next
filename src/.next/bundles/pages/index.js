@@ -1811,11 +1811,9 @@ var _default = Header;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("../node_modules/react/cjs/react.development.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__("../node_modules/next/head.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("../node_modules/next/link.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Header_Header__ = __webpack_require__("./components/Header/Header.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_link__ = __webpack_require__("../node_modules/next/link.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_next_link__);
 var _jsxFileName = '/Users/justinrunes/Sites/sassy-next/src/components/HomeLayout/HomeLayout.js';
 
 
@@ -1829,7 +1827,6 @@ var _jsxFileName = '/Users/justinrunes/Sites/sassy-next/src/components/HomeLayou
 
 
 
-
 var HomeLayout = function HomeLayout(props) {
     return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
         'div',
@@ -1837,19 +1834,19 @@ var HomeLayout = function HomeLayout(props) {
             className: 'jsx-1586328328',
             __source: {
                 fileName: _jsxFileName,
-                lineNumber: 6
+                lineNumber: 5
             }
         },
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Header_Header__["a" /* default */], {
             __source: {
                 fileName: _jsxFileName,
-                lineNumber: 7
+                lineNumber: 6
             }
         }),
         props.children,
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
             styleId: '1586328328',
-            css: '\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9jb21wb25lbnRzL0hvbWVMYXlvdXQvSG9tZUxheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVb0IiLCJmaWxlIjoic3JjL2NvbXBvbmVudHMvSG9tZUxheW91dC9Ib21lTGF5b3V0LmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9qdXN0aW5ydW5lcy9TaXRlcy9zYXNzeS1uZXh0Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuaW1wb3J0IEhlYWRlciBmcm9tICcuLi9IZWFkZXIvSGVhZGVyJztcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XG5cbmNvbnN0IEhvbWVMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8SGVhZGVyPjwvSGVhZGVyPlxuICAgICAgICBcbiAgICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgICAgICBcbiAgICAgICAgPHN0eWxlIGpzeD57YFxuXG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgSG9tZUxheW91dDsiXX0= */\n/*@ sourceURL=src/components/HomeLayout/HomeLayout.js */'
+            css: '\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9jb21wb25lbnRzL0hvbWVMYXlvdXQvSG9tZUxheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTb0IiLCJmaWxlIjoic3JjL2NvbXBvbmVudHMvSG9tZUxheW91dC9Ib21lTGF5b3V0LmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9qdXN0aW5ydW5lcy9TaXRlcy9zYXNzeS1uZXh0Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcbmltcG9ydCBIZWFkZXIgZnJvbSAnLi4vSGVhZGVyL0hlYWRlcic7XG5cbmNvbnN0IEhvbWVMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8SGVhZGVyPjwvSGVhZGVyPlxuICAgICAgICBcbiAgICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgICAgICBcbiAgICAgICAgPHN0eWxlIGpzeD57YFxuXG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgSG9tZUxheW91dDsiXX0= */\n/*@ sourceURL=src/components/HomeLayout/HomeLayout.js */'
         })
     );
 };
@@ -1913,21 +1910,21 @@ var ThreeBlockHero = function ThreeBlockHero() {
             },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "div",
-                { className: "three-block-hero three-block-hero--custom", __source: {
+                { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.threeBlockHeroCustom, __source: {
                         fileName: _jsxFileName,
                         lineNumber: 7
                     }
                 },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
-                    { className: "left", __source: {
+                    { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.left, __source: {
                             fileName: _jsxFileName,
                             lineNumber: 8
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "top", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.top, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 9
                             }
@@ -1944,7 +1941,7 @@ var ThreeBlockHero = function ThreeBlockHero() {
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "p",
-                            { className: "body", __source: {
+                            { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.body, __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 11
                                 }
@@ -1963,7 +1960,7 @@ var ThreeBlockHero = function ThreeBlockHero() {
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "bottom", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.bottom, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 14
                             }
@@ -1981,21 +1978,21 @@ var ThreeBlockHero = function ThreeBlockHero() {
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
-                    { className: "rt", title: "A child with XLH", __source: {
+                    { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.rt, title: "A child with XLH", __source: {
                             fileName: _jsxFileName,
                             lineNumber: 18
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "top", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.top, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 19
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "h1",
-                            { className: "block__title", __source: {
+                            { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.blockTitle, __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 20
                                 }
@@ -2014,7 +2011,7 @@ var ThreeBlockHero = function ThreeBlockHero() {
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "bottom", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.bottom, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 23
                             }
@@ -2032,21 +2029,21 @@ var ThreeBlockHero = function ThreeBlockHero() {
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
-                    { className: "rb", title: "An adult female with XLH", __source: {
+                    { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.rb, title: "An adult female with XLH", __source: {
                             fileName: _jsxFileName,
                             lineNumber: 27
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "top", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.top, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 28
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "h1",
-                            { className: "block__title", __source: {
+                            { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.blockTitle, __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 29
                                 }
@@ -2065,7 +2062,7 @@ var ThreeBlockHero = function ThreeBlockHero() {
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "bottom", __source: {
+                        { className: __WEBPACK_IMPORTED_MODULE_1__ThreeBlockHero_scss___default.a.bottom, __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 32
                             }
@@ -2116,8 +2113,8 @@ var _default = ThreeBlockHero;
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("../node_modules/react/cjs/react.development.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_main_scss__ = __webpack_require__("./styles/main.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_main_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_main_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("../node_modules/next/head.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_HomeLayout_HomeLayout__ = __webpack_require__("./components/HomeLayout/HomeLayout.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_ThreeBlockHero_ThreeBlockHero__ = __webpack_require__("./components/ThreeBlockHero/ThreeBlockHero.js");
 var _jsxFileName = '/Users/justinrunes/Sites/sassy-next/src/pages/index.js';
@@ -2143,7 +2140,7 @@ var Index = function Index() {
       }
     },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      Head,
+      __WEBPACK_IMPORTED_MODULE_1_next_head___default.a,
       {
         __source: {
           fileName: _jsxFileName,

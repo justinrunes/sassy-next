@@ -1,4 +1,4 @@
-import css from '../styles/main.scss';
+import Head from 'next/head';
 import HomeLayout from '../components/HomeLayout/HomeLayout';
 import ThreeBlockHero from '../components/ThreeBlockHero/ThreeBlockHero';
 
